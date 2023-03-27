@@ -1,0 +1,12 @@
+# @format
+
+services:
+  backend:
+    build: server/.
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: client/.
+    ports:
+      - "80:80"
